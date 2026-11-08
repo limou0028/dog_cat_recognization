@@ -13,7 +13,7 @@
 ![Model](https://img.shields.io/badge/Backbone-ResNet--18-8A2BE2)
 ![Val Acc](https://img.shields.io/badge/Val%20Acc-99.02%25-success)
 
-[报告问题参考答案](doc.md) · [提交文件](submission.csv) · 项目要求原文见课程 NTULearn（EE6483-Project2.pdf）
+[报告问题参考答案](doc.md) · [协作指南（Git 工作流）](CONTRIBUTING.md) · [提交文件](submission.csv) · 项目要求原文见课程 NTULearn（EE6483-Project2.pdf）
 
 </div>
 
@@ -236,6 +236,7 @@ python src/train.py --config configs/resnet18_ft.yaml --set lr=5e-4 seed=1 exp_n
 ```
 dog_vs_cat/
 ├── 📄 README.md              ← 你在这里
+├── 🤝 CONTRIBUTING.md        协作指南：Git 分支 + PR 工作流
 ├── 📝 doc.md                 报告各题的参考答案素材（给写报告的同学）
 ├── 📝 submission.csv         test 预测结果（id,label；1=dog，0=cat）
 ├── 📋 requirements.txt       除 PyTorch 外的依赖
@@ -263,6 +264,8 @@ dog_vs_cat/
 ---
 
 ## 👥 团队
+
+> 🤝 参与开发前请先读 **[协作指南](CONTRIBUTING.md)**：每项任务新建自己的分支，做完提 PR 合并，不直接改 `main`。
 
 | 成员 | 负责内容 |
 |:-:|---|
