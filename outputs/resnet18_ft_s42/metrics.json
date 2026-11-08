@@ -1,0 +1,25 @@
+{
+  "exp_name": "resnet18_ft",
+  "seed": 42,
+  "model": "resnet18",
+  "n_train": 20000,
+  "n_val": 5000,
+  "best_val_acc": 0.9896,
+  "best_epoch": 6,
+  "final_val_acc": 0.9896,
+  "confusion_matrix": [
+    [
+      2476,
+      24
+    ],
+    [
+      28,
+      2472
+    ]
+  ],
+  "classes": [
+    "cat",
+    "dog"
+  ],
+  "train_time_min": 5.411707317829132
+}

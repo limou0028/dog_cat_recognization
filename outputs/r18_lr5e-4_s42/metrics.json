@@ -1,0 +1,25 @@
+{
+  "exp_name": "r18_lr5e-4",
+  "seed": 42,
+  "model": "resnet18",
+  "n_train": 20000,
+  "n_val": 5000,
+  "best_val_acc": 0.9902,
+  "best_epoch": 6,
+  "final_val_acc": 0.9902,
+  "confusion_matrix": [
+    [
+      2476,
+      24
+    ],
+    [
+      25,
+      2475
+    ]
+  ],
+  "classes": [
+    "cat",
+    "dog"
+  ],
+  "train_time_min": 5.705843496322632
+}

@@ -1,0 +1,13 @@
+# EE6483 Dogs vs. Cats — Python 依赖
+#
+# ⚠️ torch / torchvision 不在这里安装：它们要和你电脑的 CUDA 版本匹配，
+#    请先按 README「快速开始」第 2 步，从 https://pytorch.org/get-started/locally/ 选择对应命令安装。
+#    代码要求 torch >= 2.3、torchvision >= 0.18。
+#
+# 安装：pip install -r requirements.txt
+
+numpy>=1.24
+pillow>=10.0
+PyYAML>=6.0
+tqdm>=4.65
+matplotlib>=3.7

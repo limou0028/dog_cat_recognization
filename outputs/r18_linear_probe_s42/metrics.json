@@ -1,0 +1,25 @@
+{
+  "exp_name": "r18_linear_probe",
+  "seed": 42,
+  "model": "resnet18",
+  "n_train": 20000,
+  "n_val": 5000,
+  "best_val_acc": 0.9842,
+  "best_epoch": 6,
+  "final_val_acc": 0.9842,
+  "confusion_matrix": [
+    [
+      2437,
+      63
+    ],
+    [
+      16,
+      2484
+    ]
+  ],
+  "classes": [
+    "cat",
+    "dog"
+  ],
+  "train_time_min": 1.9972864985466003
+}

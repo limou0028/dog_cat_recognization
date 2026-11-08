@@ -1,0 +1,15 @@
+# 主力模型：ResNet-18 ImageNet 预训练，第 1 个 epoch 冻结 backbone 训线性头，之后整体微调
+exp_name: resnet18_ft
+model: resnet18
+pretrained: true
+augment: true
+freeze_epochs: 1
+optimizer: adamw
+lr: 1.0e-3            # 头部 lr
+backbone_lr_mult: 0.1 # backbone lr = 1e-4
+weight_decay: 1.0e-4
+epochs: 6
+scheduler: cosine
+batch_size: 64
+num_workers: 8
+seed: 42

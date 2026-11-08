@@ -1,0 +1,25 @@
+{
+  "exp_name": "simple_cnn",
+  "seed": 42,
+  "model": "simple_cnn",
+  "n_train": 20000,
+  "n_val": 5000,
+  "best_val_acc": 0.9524,
+  "best_epoch": 19,
+  "final_val_acc": 0.9522,
+  "confusion_matrix": [
+    [
+      2415,
+      85
+    ],
+    [
+      153,
+      2347
+    ]
+  ],
+  "classes": [
+    "cat",
+    "dog"
+  ],
+  "train_time_min": 45.945983390013375
+}

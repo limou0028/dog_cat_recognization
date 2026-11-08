@@ -1,0 +1,26 @@
+# ===== 数据集（约 1.2 GB，不上传；请按 README 自行下载放到 datasets/）=====
+datasets/
+
+# ===== 模型权重（每个约 43 MB，不上传；需要时用 configs + seed 重新训练）=====
+*.pt
+*.pth
+*.ckpt
+
+# ===== 实验输出：保留 config / history / curves / metrics 等小文件，忽略以下内容 =====
+outputs/logs/
+outputs/smoke*/
+
+# ===== Python =====
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+
+# ===== 编辑器 / 系统 =====
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ===== Claude Code 本地配置 =====
+.claude/
